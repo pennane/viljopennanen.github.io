@@ -1,5 +1,5 @@
 img {
-    float: right;
+    float: none;
     margin-left: 15px;
 }
 
@@ -8,11 +8,39 @@ body {
 }
 
 header {
-    background-color: gray;
+    background-image: url(/kuvat/artsypuu.jpg);
+    background-size: 100%;
+    background-position: 50% 25%;
     text-align: center;
-    padding: 1px
+    padding: 70px;
+    color: white;
+
+
+
+}
+
+nav {
+    background-color: rgb(81, 80, 80);
+    text-align: center;
+    padding: 10px;
 }
 
 h1 {
     font-size: 50px;
+}
+
+form {
+    display: inline;
+}
+
+button {
+    background-color: darkslategray;
+    color: white;
+    font-size: large;
+
+}
+
+button:hover {
+    background-color: rgb(59, 30, 252);
+
 }
