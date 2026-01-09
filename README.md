@@ -1,1 +1,1 @@
-Homepage for me and my wonderfull creations
+Homepage for me and my wonderful creations
