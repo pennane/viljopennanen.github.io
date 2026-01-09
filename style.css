@@ -158,7 +158,7 @@ form {
 }
 
 button {
-    background-color: white;
+    background-color: rgb(211, 211, 211);
     border-style: solid;
     border-width: 2px;
     color: black;
@@ -172,6 +172,15 @@ button:hover {
 
 }
 
+.mainos {
+    background-color: yellow;
+    border-style: solid;
+    border-color: red;
+    border-width: 3px;
+    padding: 10px;
+    margin: 20px;
+    text-align: center;
+}
 
 
 .tekele {
@@ -187,15 +196,24 @@ button:hover {
 .tekelekuva {
     width: 300px;
     margin: auto;
-    border: 5px solid black;
+    border: 3px solid black;
 
 }
 
 .tekeleloota {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    justify-content: center;
+    display: flex;
+    align-items: start;
+    align-content: center;
     flex-direction: row;
-    max-width: 90%;
+    max-width: 1200px;
 
+
+}
+
+@media screen and (max-width: 1000px) {
+
+    .tekeleloota,
+    .navbar {
+        flex-direction: column;
+    }
 }
