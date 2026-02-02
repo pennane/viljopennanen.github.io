@@ -125,6 +125,11 @@ footer {
     opacity: 0.0;
 }
 
+.tarra {
+    width: 300px;
+    margin-right: 500px;
+}
+
 nav {
     background-color: white;
     text-align: center;
@@ -158,17 +163,27 @@ form {
 }
 
 button {
-    background-color: rgb(211, 211, 211);
     border-style: solid;
-    border-width: 2px;
+    border-radius: 5px;
+    border-width: 3px;
     color: black;
     font-size: large;
     padding: 20px 15px;
     cursor: pointer;
 }
 
+.youtube {
+    background-color: rgb(214, 42, 42);
+    color: white;
+}
+
+.instagram {
+    background-color: rgb(160, 90, 187);
+    color: white;
+}
+
 button:hover {
-    background-color: rgb(168, 168, 168);
+    filter: brightness(0.8);
 
 }
 
