@@ -63,6 +63,25 @@
     margin: 10px;
 }
 
+.rivit {
+    padding: 15px;
+    background-image: url(kuvat/silma.jpeg);
+    background-color: white;
+    background-size: 90%;
+    background-repeat: no-repeat;
+    border-style: solid;
+    border-width: 3px;
+    margin: 10px;
+    min-height: 150px;
+    background-position: 50% 20%;
+
+
+}
+
+.omakuva {
+    width: 50%;
+}
+
 .mina {
     width: 300px;
     margin: auto;
@@ -127,7 +146,7 @@ footer {
 
 .tarra {
     width: 300px;
-    margin-right: 500px;
+    margin-right: 300px;
 }
 
 nav {
@@ -231,4 +250,53 @@ button:hover {
     .navbar {
         flex-direction: column;
     }
+}
+
+/* TESTI ALKAA */
+
+.testiheader {
+    color: red;
+    font-family: cursive;
+    text-shadow: 2px 2px black;
+
+}
+
+.testidiv {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    height: 150px;
+    background-color: yellow;
+    border: 1px solid black;
+
+
+}
+
+.testidiv:hover {
+    transform: skew(20deg);
+}
+
+.akvaario {
+    width: 1000px;
+    margin: 10%;
+    background-image: url(kuvat/meri.png);
+    background-position: 50% 70%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: 0.2cm;
+    border-color: white;
+
+}
+
+.kala1 {
+    color: red;
+}
+
+.kala2 {
+    color: orange;
+}
+
+.kala3 {
+    color: rgb(65, 119, 65);
 }
